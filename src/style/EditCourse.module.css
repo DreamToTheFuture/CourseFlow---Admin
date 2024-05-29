@@ -1,0 +1,65 @@
+.form {
+  background-color: #fff;
+  border-radius: 16px;
+  margin: 40px;
+  padding: 40px 100px;
+}
+
+
+.form form > * {
+  margin-bottom: 20px;
+}
+
+.duo-text-input {
+  display: flex;
+  width: 100%;
+}
+
+.duo-text-input > * {
+  width: 45%;
+}
+
+.lessons-operation {
+  margin: 40px;
+}
+
+.lessons-section {
+  border-radius: 16px;
+  margin: 40px;
+}
+
+
+.table-head {
+  background-color: #E4E6ED;
+}
+
+.table-head-th:first-child {
+  border-top-left-radius: 10px; /* Adjust the radius as needed */
+}
+
+.table-head-th:last-child {
+  border-top-right-radius: 10px; /* Adjust the radius as needed */
+}
+
+.table-rows {
+  background-color: #fff;
+  height: 50px;
+}
+
+.action-button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+:global(.mantine-TextInput-label) {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+:global(.mantine-Textarea-label) {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
